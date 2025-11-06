@@ -2,12 +2,66 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aprova Paraná no Adolpho - Diário de um estudante</title>
     <link rel="stylesheet" href="style.css">
-</head>
+</head>  
 <body>
-    
     <script src="script.js"></script>
+    <header>
+        <h1>Aprova Paraná</h1>
+        <p>Organize seus estudos de forma simples e eficiente! 
+        O acesso ao Ensino Superior é garantido pelo Aprova Paraná Universidades, programa educacional que assegura a reserva de 20%
+        das vagas nas universidades estaduais a alunos de escolas públicas, com base na nota obtida na Prova Paraná Mais.</p>
+        </header>
+        
+        
+        <main>
+        <section class="intro">
+        <h2>Sobre o projeto</h2>
+        <p>Este site foi feito por um estudante que está se preparando para o <strong>Aprova Paraná</strong>. Aqui você pode planejar suas matérias e acompanhar o seu progresso. Garanta sua vaga, é uma excelente oportunidade!</p>
+        </section>
+        
+        
+        <section class="planner">
+        <h2>Planejador de estudos</h2>
+        <form id="plannerForm">
+        <input type="text" id="topic" placeholder="Matéria" required>
+        <input type="number" id="hours" placeholder="Horas" min="0.5" step="0.5" required>
+        <button type="submit">Adicionar</button>
+        </form>
+        
+        
+        <ul id="plannerList"></ul>
+        <p class="total">Total de horas: <span id="totalHours">0</span></p>
+        <button id="clearBtn">Limpar tudo</button>
+        </section>
+        
+        
+        <section class="tips">
+        <h2>Dicas de estudo</h2>
+        <ul>
+        <li>Faça pausas curtas entre os estudos.</li>
+        <li>Revise conteúdos com frequência.</li>
+        <li>Durma bem para memorizar melhor.</li>
+        </ul>
+        </section>
+        </main>
+        
+        
+        <footer>
+        <p>Feito por um vestibulando <span id="updateDate"></span></p>
+        </footer>
+        
+        
+        <script src="script.js"></script>
+        </body>
+        </html>
+    
+       
+    
+    </nav>
+    </div>   
+</header>
 </body>
 </html>
